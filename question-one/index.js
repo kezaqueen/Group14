@@ -1,4 +1,4 @@
-function findUniqueItems(arr) {
+function uniqueItems(arr) {
     const seen = new Set();
     const duplicates = new Set();
 
@@ -15,4 +15,4 @@ for (const item of arr) {
 
 
 const arr = [1,2,3,4,1,213,78,89,81,23,45,5,6,12,34,56,76,54,12];
-console.log(findUniqueItems(arr)); 
+console.log(uniqueItems(arr)); 
